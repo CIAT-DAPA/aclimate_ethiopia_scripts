@@ -11,8 +11,8 @@
 /geoserver/upload_mosaics/data/tmp/*.*
 
 # Python compiles
-*/__pycache__
 /geoserver/upload_mosaics/import_geoserver/__pycache__
+geoserver\upload_mosaics\import_geoserver\__pycache__
 
 # Tmp files
 /geoserver/upload_mosaics/import_geoserver/*.zip
