@@ -1,0 +1,18 @@
+# Virtal Enviroments
+/geoserver/upload_mosaics/importing
+
+# Libraries
+#/src/gsconfig-py3
+
+# Data
+/geoserver/upload_mosaics/data/layers/*
+/geoserver/upload_mosaics/data/layers/*.*
+/geoserver/upload_mosaics/data/tmp/*
+/geoserver/upload_mosaics/data/tmp/*.*
+
+# Python compiles
+*/__pycache__
+/geoserver/upload_mosaics/import_geoserver/__pycache__
+
+# Tmp files
+/geoserver/upload_mosaics/import_geoserver/*.zip
