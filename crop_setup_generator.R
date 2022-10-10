@@ -1,13 +1,12 @@
 ### Crop setup generator - DSSAT Aclimate - EDACaP
-# Author: Rodriguez-Espinoza J. Mesa-Diez J.
+# Author: Rodriguez-Espinoza J. 
 # https://github.com/jrodriguez88/
 # 2022
 
 library(tidyverse)
 library(data.table)
-library(raster)
 library(jsonlite)
-library(sf)
+
 
 
 ### Weather stations EDACaP - 
