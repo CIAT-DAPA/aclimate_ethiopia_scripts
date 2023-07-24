@@ -32,7 +32,7 @@ for (station in range) {
       new_csv$month = as.numeric(format(strptime(as.character(row.names(split_dataset)), "%m/%d/%Y"),"%m" ))
       new_csv$year = as.numeric(format(strptime(as.character(row.names(split_dataset)), "%m/%d/%Y"),"%Y" ))
     }
-    new_csv[replaceName(filename)] = cbind(split_dataset[1])
+    new_csv[replaceName(filename)] = cbind(split_dataset[station])
     
   }
   output_file_name = paste("/",coordinates[station,3],sep="")
